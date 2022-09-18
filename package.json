@@ -1,0 +1,33 @@
+{
+  "name": "etherlotto",
+  "version": "1.0.0",
+  "description": "EtherLotto Smart Contract",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat deploy"
+  },
+  "author": "EtherLotto",
+  "license": "MIT",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EtherLotto/smart-contract.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart-contracts"
+  ],
+  "bugs": {
+    "url": "https://github.com/EtherLotto/smart-contract/issues"
+  },
+  "homepage": "https://github.com/EtherLotto/smart-contract#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.11.0"
+  }
+}
